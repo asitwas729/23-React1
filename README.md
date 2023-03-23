@@ -7,9 +7,9 @@
 2. local에 있는 저장소 이름 바꾸기 or 삭제
 3. 새 프로젝트 생성(23-React1)
 4. README.md 덮어쓰기
-5. GitHub 23-React 삭제
-6. 로컬에서 23-React1 push
-7. GitHub 저장소 확인
+5. GitHub 23-React 삭제하기
+6. 로컬에서 23-React1 push하기
+7. GitHub 저장소 확인하기
 
 
 
