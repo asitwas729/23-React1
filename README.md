@@ -11,6 +11,47 @@
 6. 로컬에서 23-React1 push하기
 7. GitHub 저장소 확인하기
 
+ReactJS
+
+```jsx
+const element = <h1>Hello, World!</h1>;
+```
+
+jsx이란?
+
+- 자바스크립트의 확장 문법
+- JSX 코드를 자바스크립트 코드로 변환하는 역할을 하는 것
+Ex)React의 createElement()함
+
+```jsx
+// JSX사용
+const element =(
+	<hl className="greeting">
+		Hello, world!
+	</hl>
+)
+
+// JSX사용안함 
+const element = React.createElement(
+	'hl',
+	{ className： 'greeting' },
+	'Hello, world!'
+)
+```
+
+jsx 장점
+
+- 코드 간결해짐
+- 가독성↑
+- 생산성↑
+- 해킹 방법을 보안하여 보안성이 높아짐
+Injection Attack: 입력창에 소스코드를 입력하여 실행되는 해킹 방법
+
+jsx 사용법
+
+- HTML과 자바스크립트가 섞인 형태로 코드를 작성
+- HTML 코드를 사용하다가 중간에 자바스크립트 코드를 사용하고 싶으면 중괄호 사용
+
 
 
 
