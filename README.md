@@ -5,42 +5,46 @@
 
 ### Chapter.07 훅(p.208)
 
-1. Hook
-: 원래 존재하는 어떤 기능에 마치 갈고리를 거는 것처럼 끼어 들어가 같이 수행되는 것
+1. Hook<br>
+: 원래 존재하는 어떤 기능에 마치 갈고리를 거는 것처럼 끼어 들어가 같이 수행되는 것<br>
 : 리액트의 state와 생명주기 기능에 갈고리를 걸어 원하는 시점에 정해진 함수를 실행되도록 만든 것
+<br><br>
 
-2. side effect(=부작용)
-useEffect(effect function, an array of dependencies);
+2. side effect(=부작용)<br>
+useEffect(effect function, an array of dependencies);<br>
 의존성 배열 없이 사용한다면? 'DOM이 변경된 이후에 해당 이펙트 함수를 실행하라'는 의미로 리액트는 받아들인다.
-- useEffect()에서 리턴하는 함수는 컴포넌트가 마운트 해제될때 호출됩니다.
+- useEffect()에서 리턴하는 함수는 컴포넌트가 마운트 해제될때 호출됩니다.<br><br>
 
-3. useMemo() Hook
+3. useMemo() Hook<br>
 : Memoized value를 return하는 Hook
 - useMemo()로 전달된 함수는 렌더링이 일어나는동안 실행된다는 점
+<br><br>
 
-4. useCallback() Hook
-: useMemo()과 유사한 역할을 함
-: 차이점) 값이 아닌 함수를 반환
+4. useCallback() Hook<br>
+: useMemo()과 유사한 역할을 함<br>
+: 차이점) 값이 아닌 함수를 반환<br>
+<br>
 
-5. Memoization(최적화)
-- 함수 호출 결과를 저장해 두었다가, 같은 입력값으로 함수를 호출하면 이전에 저장해놨던 호출 결과를 바로 반환하는 것
+5. Memoization(최적화)<br>
+- 함수 호출 결과를 저장해 두었다가, 같은 입력값으로 함수를 호출하면 이전에 저장해놨던 호출 결과를 바로 반환하는 것<br><br>
 
-6. useRef() Hook
-: Reference를 사용하기 위한 Hook
-: 변경가능한 .current라는 속성을 가진 하나의 상자
+6. useRef() Hook<br>
+: Reference를 사용하기 위한 Hook<br>
+: 변경가능한 .current라는 속성을 가진 하나의 상자<br>
 Reference(=특정 컴포넌트에 접근할 수 있는 객체)
-- 매번 랜더링될 때마다 항상 같은 ref객체를 반환한다
+- 매번 랜더링될 때마다 항상 같은 ref객체를 반환한다<br><br>
 
 7. Hook의 규칙
 - 무조건 최상위 레벨에서만 호출
 - 반복문, 조건문, 중첩된 함수 안에서 호출X
 - 컴포넌트가 렌더링될 때마다 매번 같은 순서로 호출
 - 리액트 함수 컴포넌트에서만 호출
-- 직접 만든 커스텀 훅에서만 호출가능
+- 직접 만든 커스텀 훅에서만 호출가능<br><br>
 
 <시험범위> 
-~ Chapter.07 훅까지
-A4지시서, 순서대로 만들어라!, 오픈북+인터넷검색 가능(카톡X, 옆사람이랑 말하기X, 챗GPT X, node모듈만 올리지 말기)
+~ Chapter.07 훅까지<br>
+A4지시서, 순서대로 만들어라!, 오픈북+인터넷검색 가능<br>
+(카톡X, 옆사람이랑 말하기X, 챗GPT X, node모듈만 올리지 말기)<br>
 시험시간 : PM 1:00~1:50
 
 
