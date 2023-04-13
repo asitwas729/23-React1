@@ -43,8 +43,8 @@ function Comment(props) {
           </div>
 
           <div style={styles.contentContainer}>
-              <span style={styles.nameText}>양혜민</span>
-              <span style={styles.commentText}>첫 컴포넌트</span>
+              <span style={styles.nameText}>{props.name}</span>
+              <span style={styles.commentText}>{props.comment}</span>
           </div>
       </div>
   );

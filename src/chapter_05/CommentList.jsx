@@ -14,6 +14,10 @@ const comments = [
       name: "강민경",
       comment: "저도 리액트 배워보고 싶어요!!",
   },
+  {
+      name: "양혜민",
+      comment: "나는 뚠뚠 오늘도 뚠뚠 열심히 공부를 하지 뚠뚠"
+  }
 ];
 
 function CommentList(props) {

@@ -3,6 +3,27 @@
 # 6주차
 2023-04-06
 
+실행방법
+
+1. npm start
+2. index.js변경
+```jsx
+import Comment from './chapter_05/Comment';
+
+<React.StrictMode>
+    <Comment />
+  </React.StrictMode>
+```
+
+State
+
+1. 리액트 컴포넌트의 상태를 의미(컴포넌트의 변경가능한 데이터)
+
+<특징>
+
+1. 자바스크립트 객체일뿐...,
+2. 함수형에서는 useState()라는 함수 사용
+
 
 # 5주차
 2023-03-30
